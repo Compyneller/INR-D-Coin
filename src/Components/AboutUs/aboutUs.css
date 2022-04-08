@@ -1,0 +1,12 @@
+@media screen and (max-width : 1000px) {
+    #aboutus h1{
+        font-size: 30px !important;
+        margin-bottom: 1rem !important;
+    
+    }
+    #aboutus p{
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+    
+}

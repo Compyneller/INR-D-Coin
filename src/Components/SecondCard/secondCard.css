@@ -1,0 +1,53 @@
+.secondCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 50vh;
+  background: #272734;
+  min-height: 50vh;
+  border-radius: 20px;
+  /* padding: 3rem; */
+  color: white;
+}
+.secondCard button {
+  width: 12rem;
+  padding: 1rem 0;
+  background: #2bc9fb;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+
+.secondCard h1 {
+  font-size: 5vmin;
+  font-weight: 700;
+}
+.secondCard video {
+  max-height: 50vh;
+  width: 70%;
+  
+  /* border-top-right-radius: 20px;
+  
+  border-bottom-right-radius: 20px; */
+  /* mix-blend-mode: lighten; */
+  border-radius: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .secondCard button {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+  }
+  .secondCard {
+    padding: 1rem;
+  }
+  .secondCard video {
+    height: 100%;
+  }
+  #mobileCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,12 @@
+.strip-container {
+  background-color: #00509d;
+  color: white;
+  text-align: center;
+}
+.strip-container h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.strip-container p {
+  font-size: 18px;
+}

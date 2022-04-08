@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.customNav {
+  background: linear-gradient(to right, #002242, black);
+  min-height: 10vh;
+  /* background: red; */
+}
+.buysellVideo{
+  mix-blend-mode: lighten !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cex{
+  width: 12rem;
+  padding: 1rem 0;
+  background: #2bc9fb;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.dex{
+  width: 12rem;
+  padding: 1rem 0;
+  background: red;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+@media screen and (max-width : 950px) {
+  .dex{
+    width: 7rem !important;
   }
+  .cex{
+    width: 7rem !important;
+  }
+  .buySellContentContainer h1{
+    font-size: 30px !important;
+    margin: 1rem 0  ;
+
+  }
+  .buySellContentContainer p{
+    font-size: 15px !important;
+
+  }
+  
+}
+.customNav h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.customNav nav {
+  min-height: 10vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fixed-container {
+  background: #002242;
+}
+.logoImage {
+  width: 120px;
+  height: 120px;
+}
+.footerH5 {
+  margin-bottom: 1rem;
+}
+.footerContainer {
+  background: #212121;
+  padding: 5rem 0;
+}
+.footerContainer h5 {
+  color: #9e9e9e !important;
+}
+.certificate {
+  width: 18rem;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+}
+.certificate i {
+  color: blue;
+  font-size: 40px;
+}
+.certificate img {
+  filter: invert(1);
+}
+.sheild {
+  height: 50px;
+  filter: invert(0) !important;
+}
+.certificate h1 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+.customFooter a {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.customFooter i {
+  font-size: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1000px) {
+  .logoImage {
+    width: 80px !important;
+    height: 80px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .customNav h1 {
+    font-size: 25px;
+    margin: auto 0;
+  }
+  .customFooter {
+    margin-bottom: 2rem;
+  }
+  .customFooter img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .footerIcons {
+    width: 50% !important;
+  }
+  .customFooterContact{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
   }
 }

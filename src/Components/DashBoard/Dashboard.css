@@ -1,0 +1,69 @@
+.mainDashboard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #002242, black);
+  justify-content: start;
+  /* flex-direction: column; */
+
+  min-height: 70vh;
+  z-index: -1000;
+}
+.mainDashboard video {
+  position: absolute;
+
+  /* top: 0; */
+  right: 0;
+  width: 50%;
+  mix-blend-mode: screen;
+}
+.dashboardnavbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.mainDashboard h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+.mainDashboard p {
+  font-size: 20px;
+}
+.mainDashboard button {
+  width: 12rem;
+  padding: 1rem 0;
+  background: #2bc9fb;
+  color: black;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+.dashboard-content {
+  width: 50%;
+}
+@media screen and (max-width: 1000px) {
+  .mainDashboard video {
+    width: 100%;
+  }
+  .mainDashboard {
+    display: flex;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100%;
+    justify-content: center !important;
+    margin: 0 auto;
+  }
+  .mainDashboard h1 {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  .mainDashboard p {
+    font-size: 15px;
+  }
+  .dashboard-content {
+    width: 100% !important;
+  }
+}

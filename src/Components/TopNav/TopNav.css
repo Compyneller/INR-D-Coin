@@ -1,0 +1,45 @@
+.top-Nav {
+  background: #003b72;
+  height: 5vmin;
+  position: relative;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+.top-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 5vmin;
+}
+.list-container {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  font-size: 18px;
+  height: 5vmin !important;
+}
+@media screen and (max-width: 1000px) {
+  .top-Nav {
+    height: 10vmin;
+  }
+  .top-nav-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 10vmin !important;
+  }
+  .list-container {
+    width: 100%;
+  }
+  .list-container {
+    position: relative;
+    top: auto;
+    margin: auto 0;
+  }
+}

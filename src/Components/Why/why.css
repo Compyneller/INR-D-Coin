@@ -1,0 +1,704 @@
+.whyLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.whyLogo img {
+  width: 100px;
+  height: 100px;
+}
+.whyLogo h1 {
+  font-weight: 500;
+  font-size: 25px !important;
+  margin-top: 1rem;
+  color: white;
+}
+.binanceImage {
+  object-fit: cover;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.circleContaier{
+  max-width: 60vh;
+  max-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+
+}
+.allLogos{
+  position: absolute;
+  width: 60vh;
+  height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 50%;
+
+  
+  justify-content: space-between;
+  
+
+}.allLogos img{
+  width: 30px;
+  height: 30px;
+}
+.allLogos h1{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin: auto 0;
+}
+.allLogos a{
+  text-decoration: none;
+}
+.wave a{
+  text-decoration: none;
+}
+.tron{
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 32%;
+  border-radius: 10px;
+  background: white;
+  padding: .5rem;
+}
+.tron h1{
+  color: black;
+  margin-left: 10px;
+}
+.tron img{
+  filter: invert(0);
+  
+}
+.tron a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.solana{
+  position: absolute;
+  right: 5%;
+  bottom: 25%;
+  background: white;
+  padding: .5rem;
+  border-radius: 10px;
+
+}
+.solana a{
+  display: flex;
+  align-items: center;
+}
+.solana h1{
+  color: black;
+  margin-left: 10px;
+}
+
+.fantom{
+  position: absolute;
+  bottom: 55%;
+  right: 0%;
+  background: white;
+  padding: .5rem ;
+  border-radius: 10px;
+}
+.fantom a{
+  display: flex;
+  align-items: center;
+}
+.fantom h1{
+  color: black;
+  margin-left: 10px;
+}
+.avax{
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  border-radius: 10px;
+  background: white;
+  padding: .5rem;
+}
+.avax a{
+  display: flex;
+  align-items: center;
+}
+.avax h1{
+  color: black;
+  margin-left: 10px;
+}
+.waveContainer{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+
+
+}
+.wave h1{
+  color: black !important;
+}
+
+.waveContainer a{
+  text-decoration: none;
+  
+  
+}
+.ether{
+  position: absolute;
+  left: 6%;
+  bottom: 25%;
+  background: white ;
+  padding: .5rem;
+  border-radius: 10px;
+
+}
+.ether a{
+  display: flex;
+  align-items: center;
+}
+.ether h1{
+  color: black;
+  margin-left: 10px;
+}
+.ether img{
+  filter: invert(1);
+}
+.binance{
+  position: absolute;
+  bottom: 55%;
+  left: 0%;
+  background: #ffff;
+  border-radius: 10px;
+  padding: 0 .5rem;
+  width: fit-content;
+}
+.binance a{
+  display: flex;
+  align-items: center;
+}
+.binance h1{
+  color: black;
+}
+
+.INRDLogo{
+  position: absolute;
+ 
+  width: 200px;
+  height: 200px;
+}
+.circleRotate{
+  animation: rotate 30s linear infinite;
+}
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
+.whyLogo a {
+  text-decoration: none;
+}
+.wave {
+  height: 5vmin;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-content: center;
+  background: white;
+  /* padding-right: .5rem; */
+  border-radius: 10px;
+  justify-content: start;
+}
+.waveStar {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+
+  width: 10px;
+  height: 10px;
+  background-color: #0055ff;
+  transform: rotate(45deg);
+}
+.wave h1 {
+  font-size: 30px !important;
+  font-weight: 700;
+  color: white;
+  margin: auto 0;
+
+  padding: 0 .5rem;
+}
+@media screen and (max-width: 1000px) {
+  .why h1 {
+    margin-bottom: 2rem;
+  }
+  .whyLogo img {
+    width: 100px;
+    height: 100px;
+    margin: 1rem 0;
+  }
+  .binanceImage {
+    object-fit: cover;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  
+  .wave {
+    height: 14vmin;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-content: center;
+    background: white;
+    /* padding-right: .5rem; */
+    border-radius: 10px;
+    justify-content: start;
+  }
+  .wave h1 {
+    font-size: 45px !important;
+    font-weight: 700;
+    color: white;
+  }
+  .whyLogo h1 {
+    font-weight: 500;
+    font-size: 25px !important;
+    margin-top: 0;
+    color: white;
+  }
+.allLogos img{
+  width: 20px;
+  height: 20px;
+}
+.allLogos{
+  position: absolute;
+  width: 60vh;
+  height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 50%;
+  justify-content: space-between;
+  
+
+}.allLogos h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.allLogos a{
+  text-decoration: none;
+}
+.wave a{
+  text-decoration: none;
+}
+.tron{
+  position: absolute;
+  bottom: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 38%;
+  border-radius: 10px;
+  background: white;
+  padding: .5rem;
+}
+.tron h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.tron img{
+  filter: invert(0);
+  
+}
+.tron a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.solana{
+  position: absolute;
+  right: 18%;
+  bottom: 30%;
+  background: white;
+  padding: .5rem;
+  border-radius: 10px;
+  
+}
+.solana a{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.solana h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.fantom{
+  position: absolute;
+  bottom: 55%;
+  right: 13%;
+  background: white;
+  padding: .5rem ;
+  border-radius: 10px;
+}
+.fantom a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fantom h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.avax{
+  position: absolute;
+  top: 16%;
+  right: 25%;
+  border-radius: 10px;
+  background: white;
+  padding: .5rem;
+}
+.avax a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.avax h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 15px;
+
+}
+.waveContainer{
+  position: absolute;
+  top: 16%;
+  left: 25%;
+
+
+}
+.wave h1{
+  color: black !important;
+  font-size: 30px !important;
+}
+
+.waveContainer a{
+  text-decoration: none;
+  
+  
+}
+.ether{
+  position: absolute;
+  left: 15%;
+  bottom: 30%;
+  background: white ;
+  padding: .5rem;
+  border-radius: 10px;
+
+}
+.ether a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ether h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.ether img{
+  filter: invert(1);
+}
+.binance{
+  position: absolute;
+  bottom: 55%;
+  left: 13%;
+  background: white;
+  border-radius: 10px;
+  padding: .5rem .5rem !important ;
+  width: fit-content;
+}
+.binance a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.binance h1{
+  color: black;
+  font-size: 15px;
+}
+
+.INRDLogo{
+  position: absolute;
+ 
+  width: 100px;
+  height: 100px;
+}
+.circleContaier{
+  margin-bottom: 2rem;
+}
+.circleContainer-content h1{
+  font-size: 25px;
+  
+}
+.circleContainer-content p{
+  font-size: 18px !important;
+  text-align: center;
+}
+.circleContainer-content h1{
+  font-size: 30px !important;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.circleContainer-content p{
+  font-size: 15px !important;
+}
+}
+
+@media screen and (max-width : 660px) {
+
+    .why h1 {
+    margin-bottom: 2rem;
+  }
+  .whyLogo img {
+    width: 100px;
+    height: 100px;
+    margin: 1rem 0;
+  }
+  .wave {
+    height: 14vmin;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-content: center;
+    background: white;
+    /* padding-right: .5rem; */
+    border-radius: 10px;
+    justify-content: start;
+  }
+  .wave h1 {
+    font-size: 45px !important;
+    font-weight: 700;
+    color: white;
+  }
+  .whyLogo h1 {
+    font-weight: 500;
+    font-size: 25px !important;
+    margin-top: 0;
+    color: white;
+  }
+.allLogos img{
+  width: 20px;
+  height: 20px;
+}
+.allLogos{
+  position: absolute;
+  width: 60vh;
+  height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 50%;
+  justify-content: space-between;
+  
+
+}.allLogos h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.allLogos a{
+  text-decoration: none;
+}
+.wave a{
+  text-decoration: none;
+}
+.tron{
+  position: absolute;
+  bottom: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 35%;
+  border-radius: 10px;
+  background: white;
+  padding: .5rem;
+}
+.tron h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 10px !important;
+}
+.tron img{
+  filter: invert(0);
+  
+}
+.tron a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.solana{
+  position: absolute;
+  right: 18%;
+  bottom: 30%;
+  background: white;
+  padding: .5rem;
+  border-radius: 10px;
+  
+}
+.solana a{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.solana h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.fantom{
+  position: absolute;
+  bottom: 50%;
+  right: 13%;
+  background: white;
+  padding: .5rem ;
+  border-radius: 10px;
+}
+.fantom a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fantom h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.avax{
+  position: absolute;
+  top: 16%;
+  right: 20%;
+  border-radius: 10px;
+  background: white;
+  padding: .5rem;
+}
+.avax a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.avax h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 12px;
+
+}
+.waveContainer{
+  position: absolute;
+  top: 16%;
+  left: 20%;
+
+
+}
+.wave h1{
+  color: black !important;
+  font-size: 25px !important;
+}
+
+.waveContainer a{
+  text-decoration: none;
+  
+  
+}
+.ether{
+  position: absolute;
+  left: 15%;
+  bottom: 30%;
+  background: white ;
+  padding: .5rem;
+  border-radius: 10px;
+
+}
+.ether a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ether h1{
+  color: black;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.ether img{
+  filter: invert(1);
+}
+.binance{
+  position: absolute;
+  bottom: 50%;
+  left: 13%;
+  background: white;
+  border-radius: 10px;
+  padding: 0 .5rem;
+}
+.binance a{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.binance h1{
+  color: black;
+  font-size: 12px;
+}
+
+.INRDLogo{
+  position: absolute;
+ 
+  width: 100px;
+  height: 1 00px;
+}
+.circleContaier{
+  margin-bottom: 2rem;
+}
+.circleContainer-content h1{
+  font-size: 25px;
+  
+}
+.circleContainer-content p{
+  font-size: 18px !important;
+  text-align: center;
+}
+.circleContainer-content h1{
+  font-size: 30px !important;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.circleContainer-content p{
+  font-size: 15px !important;
+}
+}
+
