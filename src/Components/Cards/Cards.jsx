@@ -13,13 +13,10 @@ const Cards = () => {
       style={{ overflowX: "hidden", overflowY: "hidden" }}
     >
       <div className="container text-center ">
-        <h1
-          style={{ fontWeight: "700", fontSize: "45px" }}
-          className="text-light mb-3"
-        >
+        <h1 style={{ fontSize: "45px" }} className="text-light mb-3">
           Our trusted wallets
         </h1>
-        <p className="text-light mb-5 trusted" style={{ fontSize: "20px" }}>
+        <p className="text-light mb-5 trusted" style={{ fontSize: "18px" }}>
           With INR(D) get access to your favorite wallet & secure your
           cryptocurrency. Our application provides you with different wallets-
           Metamask, Trust, Phantom & Tronlink Wallet. Exciting? Yes, we are

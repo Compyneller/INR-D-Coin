@@ -21,10 +21,8 @@ const BuySell = () => {
           </div>
           <div className="col-12 col-lg-6" data-aos="zoom-in-left">
             <div className="d-flex w-100 align-items-center justify-content-center text-center flex-column text-light buySellContentContainer">
-              <h1 style={{ fontSize: "45px", fontWeight: "700" }}>
-                How to Buy/Sell?
-              </h1>
-              <p style={{ fontSize: "20px" }}>
+              <h1 style={{ fontSize: "45px" }}>How to Buy Sell?</h1>
+              <p style={{ fontSize: "18px" }}>
                 INR(D) provides you with a system of centralized & decentralized
                 exchange platforms. Now, complete your business transactions
                 with high trading volume or control your funds by operating

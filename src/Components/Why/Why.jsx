@@ -95,10 +95,8 @@ const Why = () => {
             </div>
           </div>
           <div className="col-12 col-lg-12 col-xl-6 text-light d-flex align-items-center justify-content-center flex-column circleContainer-content">
-            <h1 style={{ fontWeight: "700", fontSize: "45px" }}>
-              Available on Multi-chains
-            </h1>
-            <p style={{ fontSize: "20px" }}>
+            <h1 style={{ fontSize: "45px" }}>Available on Multi-chains</h1>
+            <p style={{ fontSize: "18px" }}>
               INR(D) is locked with seven prominent blockchains and nobody can
               access it except you. The blockchains that are available on INR(D)
               are- Binance Smart Chain, Avalanche, Fantom, Tron, Waves, Solana &

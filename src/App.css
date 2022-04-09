@@ -69,9 +69,14 @@ body {
   background: #002242;
 }
 .logoImage {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 }
+.footerSocialsIcons i{
+
+  font-size: 30px;
+}
+
 .footerH5 {
   margin-bottom: 1rem;
 }
@@ -132,6 +137,13 @@ body {
   .customFooterContact{
     display: flex;
     align-items: center !important;
+    justify-content: center !important;
+  }
+  .footerSocialsIcons{
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    margin-bottom: 3rem;
     justify-content: center !important;
   }
 }
