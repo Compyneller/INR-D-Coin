@@ -132,7 +132,7 @@ body {
     height: 150px !important;
   }
   .footerIcons {
-    width: 50% !important;
+    width: 100% !important;
   }
   .customFooterContact{
     display: flex;
