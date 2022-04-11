@@ -17,7 +17,9 @@ const Dashboard = () => {
             INR(D) is a global innovation functioning on seven blockchains to
             lead the way of modern capitalism.
           </p>
-          <button data-aos="fade-up">Get Started</button>
+          <br />
+          <br />
+          <a href="#multichain">Get Started</a>
         </div>
       </div>
     </div>

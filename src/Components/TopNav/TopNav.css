@@ -30,12 +30,13 @@ ul a {
   .top-nav-container {
     display: flex;
 
-    justify-content: center;
-    align-items: center;
+    justify-content: start !important;
+    align-items: center !important;
     height: 10vmin !important;
   }
   .list-container {
     width: 100%;
+  
   }
   .list-container {
     position: relative;

@@ -20,27 +20,31 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-12 col-lg-4 footerSocialsIcons">
-            <p style={{ fontSize: "20px ", fontStyle: "italic" }}>
+            <p style={{ fontSize: "20px " }}>
               Contact :{" "}
               <a href="mailto:hello@inrdcoin.com">hello@inrdcoin.com</a>{" "}
             </p>
-            <p style={{ fontSize: "20px ", fontStyle: "italic" }}>
-              Follow Us :
-            </p>
+            <p style={{ fontSize: "20px " }}>Follow Us :</p>
             <div className="d-flex w-100 justify-content-between align-items-center footerIcons ">
-              <a href="https://medium.com/@INRDcoin">
+              <a href="https://medium.com/@INRDcoin" target="_blank">
                 <i className="fa-brands fa-medium"></i>
               </a>
-              <a href="https://mobile.twitter.com/INRDcoin">
+              <a href="https://mobile.twitter.com/INRDcoin" target="_blank">
                 <i className="fa-brands fa-twitter"></i>
               </a>
-              <a href="https://t.me/INRD8">
+              <a href="https://www.linkedin.com/company/inr-d" target="_blank">
+                <i className="fa-brands fa-linkedin"></i>{" "}
+              </a>
+              <a href="https://t.me/INRD8" target="_blank">
                 <i className="fa-brands fa-telegram"></i>
               </a>
-              <a href="https://github.com/INRD8/INRD">
+              <a href="https://github.com/INRD8/INRD" target="_blank">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://discord.com/channels/961181494813016144/961181494813016146">
+              <a
+                href="https://discord.com/channels/961181494813016144/961181494813016146"
+                target="_blank"
+              >
                 <i className="fa-brands fa-discord"></i>
               </a>
             </div>

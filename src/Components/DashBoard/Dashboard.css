@@ -7,7 +7,6 @@
   /* flex-direction: column; */
 
   min-height: 70vh;
-  z-index: -1000;
 }
 .mainDashboard video {
   position: absolute;
@@ -31,12 +30,14 @@
 .mainDashboard p {
   font-size: 20px;
 }
-.mainDashboard button {
+.mainDashboard a {
   width: 12rem;
-  padding: 1rem 0;
+  padding: 1rem 3rem;
   background: #2bc9fb;
   color: black;
   font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
   border: none;
   outline: none;
   border-radius: 20px;
