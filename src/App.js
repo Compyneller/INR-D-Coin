@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import OurTeam from "./Pages/OurTeam";
 
 function App() {
   useEffect(() => {
@@ -13,7 +15,12 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Home />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/team" component={OurTeam} />
+        </Switch>
+      </Router>
     </div>
   );
 }

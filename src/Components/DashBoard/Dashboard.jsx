@@ -19,7 +19,9 @@ const Dashboard = () => {
           </p>
           <br />
           <br />
-          <a href="#multichain">Get Started</a>
+          <a target="_blank" href="https://stablecoin.co.in/">
+            Get Started
+          </a>
         </div>
       </div>
     </div>

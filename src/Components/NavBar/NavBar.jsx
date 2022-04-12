@@ -1,15 +1,16 @@
 import React from "react";
 import logo from "../../Assets/INR_Logo.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="customNav">
       <nav className="navbar navbar-expand-lg navbar-dark  container  ">
         <div className="container-fluid">
-          <a className="navbar-brand d-flex align-items-center" href="#">
+          <Link className="navbar-brand d-flex align-items-center" to="/">
             <img src={logo} alt="" className="logoImage" />
-            <h1>INR(D)</h1>
-          </a>
+            <h1 style={{ margin: "auto 0" }}>INR(D)</h1>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,19 +31,24 @@ const NavBar = () => {
                   </a>
                 </li> */}
                 <li className="nav-item">
-                  <a className="nav-link" href="#multichain">
+                  <a className="nav-link" href="/#multichain">
                     Multi-chains
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#wallets">
+                  <a className="nav-link" href="/#wallets">
                     Wallets
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#buysell">
-                    Buy/Sell
+                  <a className="nav-link" href="/#buysell">
+                    Buy Sell
                   </a>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/team">
+                    Our Team
+                  </Link>
                 </li>
               </ul>
             </div>
