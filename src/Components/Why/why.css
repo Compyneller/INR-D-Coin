@@ -170,7 +170,7 @@
   margin-left: 10px;
 }
 .ether img{
-  filter: invert(1);
+  filter: invert(0);
 }
 .binance{
   position: absolute;

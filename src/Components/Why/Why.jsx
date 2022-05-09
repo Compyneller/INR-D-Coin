@@ -5,7 +5,7 @@ import avax from "../../Assets/avalanche-avax-logo.png";
 import tron from "../../Assets/pngfind.com-tron-png-1370653.png";
 import phantom from "../../Assets/fantom-ftm-logo.png";
 import solana from "../../Assets/solana-sol-logo.png";
-import ether from "../../Assets/etherscan-logo-light-circle.png";
+import ether from "../../Assets/eth-home-icon.webp";
 import circle from "../../Assets/bg_img-1.png";
 import logo from "../../Assets/INR_Logo.png";
 
@@ -86,9 +86,9 @@ const Why = () => {
                   data-aos="zoom-out-right"
                   data-aos-delay="3000"
                 >
-                  <a href="https://etherscan.io/">
+                  <a href="https://ethereum.org/en/">
                     <img src={ether} alt="" />
-                    <h1>Etherscan</h1>
+                    <h1>Ethereum</h1>
                   </a>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const Why = () => {
               INR(D) is locked with seven prominent blockchains and nobody can
               access it except you. The blockchains that are available on INR(D)
               are- Binance Smart Chain, Avalanche, Fantom, Tron, Waves, Solana &
-              Etherscan.
+              Ethereum.
             </p>
           </div>
           <div className="col-12 col-lg-6"></div>
