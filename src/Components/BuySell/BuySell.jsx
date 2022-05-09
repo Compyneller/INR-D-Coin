@@ -33,11 +33,19 @@ const BuySell = () => {
                 & send it to another country. Yes, it is as easy as it sounds!
               </p>
               <div className="d-flex w-75 justify-content-between ">
-                <a href=" https://stablecoin.co.in/" className="cex">
+                <a
+                  target="_blank"
+                  href=" https://stablecoin.co.in/"
+                  className="cex"
+                >
                   {" "}
                   CEX
                 </a>
-                <a href="http://www.doubledex.org/" className="dex">
+                <a
+                  target="_blank"
+                  href="https://www.doubledex.org/"
+                  className="dex"
+                >
                   {" "}
                   DEX
                 </a>
