@@ -36,6 +36,15 @@ const NavBar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
+                  <a
+                    target="_blank"
+                    className="nav-link"
+                    href="https://safuaudit.com/audit-reports/InrdSwap.pdf"
+                  >
+                    Audit
+                  </a>
+                </li>
+                <li className="nav-item">
                   <a className="nav-link" href="/#wallets">
                     Wallets
                   </a>
