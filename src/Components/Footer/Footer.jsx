@@ -2,8 +2,11 @@ import React from "react";
 import logo from "../../Assets/oie_kSoUmOOW5h9s.png";
 import alchemy from "../../Assets/Alchemy.png";
 import sheild from "../../Assets/pngfind.com-check-png-560150.png";
+import { useContext } from "react";
+import { Data } from "../../Context/DataContext";
 
 const Footer = () => {
+  const { inrd } = useContext(Data);
   return (
     <div className=" footerContainer" style={{ overflowX: "hidden" }}>
       <div className="container text-light">
@@ -26,23 +29,38 @@ const Footer = () => {
             </p>
             <p style={{ fontSize: "20px " }}>Follow Us :</p>
             <div className="d-flex w-100 justify-content-between align-items-center footerIcons ">
-              <a href="https://medium.com/@INRDcoin" target="_blank">
+              <a
+                href={inrd?.data?.footer?.follow?.value[1].link}
+                target="_blank"
+              >
                 <i className="fa-brands fa-medium"></i>
               </a>
-              <a href="https://mobile.twitter.com/INRDcoin" target="_blank">
+              <a
+                href={inrd?.data?.footer?.follow?.value[2].link}
+                target="_blank"
+              >
                 <i className="fa-brands fa-twitter"></i>
               </a>
-              <a href="https://www.linkedin.com/company/inr-d" target="_blank">
+              <a
+                href={inrd?.data?.footer?.follow?.value[3].link}
+                target="_blank"
+              >
                 <i className="fa-brands fa-linkedin"></i>{" "}
               </a>
-              <a href="https://t.me/INRD8" target="_blank">
+              <a
+                href={inrd?.data?.footer?.follow?.value[4].link}
+                target="_blank"
+              >
                 <i className="fa-brands fa-telegram"></i>
               </a>
-              <a href="https://github.com/INRD8/INRD" target="_blank">
+              <a
+                href={inrd?.data?.footer?.follow?.value[5].link}
+                target="_blank"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
-                href="https://discord.com/channels/961181494813016144/961181494813016146"
+                href={inrd?.data?.footer?.follow?.value[6].link}
                 target="_blank"
               >
                 <i className="fa-brands fa-discord"></i>
