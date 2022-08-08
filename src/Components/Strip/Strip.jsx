@@ -1,21 +1,26 @@
 import React from "react";
-import { useContext } from "react";
-import { Data } from "../../Context/DataContext";
 import "./Strip.css";
 const Strip = () => {
-  const { inrd } = useContext(Data);
   return (
     <div className="strip-container py-5" style={{ overflowX: "hidden" }}>
       <div className="container">
         <div className="row">
-          {inrd?.data?.content_boxes?.map((items, index) => {
-            return (
-              <div className="col-6 col-lg-3" data-aos="zoom-in" key={index}>
-                <h1>{items.bold_text}</h1>
-                <p>{items.text}</p>
-              </div>
-            );
-          })}
+          <div className="col-6 col-lg-3" data-aos="zoom-in">
+            <h1>600ms</h1>
+            <p>Transaction Time</p>
+          </div>
+          <div className="col-6 col-lg-3 " data-aos="zoom-in">
+            <h1>High</h1>
+            <p>Transaction throughput</p>
+          </div>
+          <div className="col-6 col-lg-3" data-aos="zoom-in">
+            <h1>No</h1>
+            <p>Transaction Fees</p>
+          </div>
+          <div className="col-6 col-lg-3" data-aos="zoom-in">
+            <h1>High</h1>
+            <p>Scalability</p>
+          </div>
         </div>
       </div>
     </div>

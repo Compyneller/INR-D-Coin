@@ -1,9 +1,6 @@
 import React from "react";
-import { useContext } from "react";
 import video from "../../Assets/video_preview_h264.mp4";
-import { Data } from "../../Context/DataContext";
 const BuySell = () => {
-  const { inrd } = useContext(Data);
   return (
     <div
       className="fixed-container py-5"
@@ -24,10 +21,17 @@ const BuySell = () => {
           </div>
           <div className="col-12 col-lg-6" data-aos="zoom-in-left">
             <div className="d-flex w-100 align-items-center justify-content-center text-center flex-column text-light buySellContentContainer">
-              <h1 style={{ fontSize: "45px" }}>
-                {inrd?.data?.buysell?.heading}
-              </h1>
-              <p style={{ fontSize: "18px" }}>{inrd?.data?.buysell?.text}</p>
+              <h1 style={{ fontSize: "45px" }}>How to Buy Sell?</h1>
+              <p style={{ fontSize: "18px" }}>
+                INR(D) provides you with a system of centralized & decentralized
+                exchange platforms. Now, complete your business transactions
+                with high trading volume or control your funds by operating
+                their functions, anywhere & anytime, just with a click! We
+                provide you with a limitless system to buy & sell INR(D) from
+                one country to another without any huge process at almost zero
+                cost. Signup within minutes, buy the coin, select the recipient
+                & send it to another country. Yes, it is as easy as it sounds!
+              </p>
               <div className="d-flex w-75 justify-content-between ">
                 <a
                   target="_blank"
