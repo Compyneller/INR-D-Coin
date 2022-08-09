@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../Assets/oie_kSoUmOOW5h9s.png";
 import alchemy from "../../Assets/Alchemy.png";
 import sheild from "../../Assets/pngfind.com-check-png-560150.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -71,12 +72,12 @@ const Footer = () => {
           className="w-100 d-flex justify-content-center"
           style={{ gap: "3rem" }}
         >
-          <a style={{ color: "#ffff" }} href="/pp" target="_blank">
+          <Link style={{ color: "#ffff" }} to="/pp" target="_blank">
             Privacy Policy
-          </a>
-          <a style={{ color: "#ffff" }} href="/tc" target="_blank">
+          </Link>
+          <Link style={{ color: "#ffff" }} to="/tc" target="_blank">
             Terms and Conditions
-          </a>
+          </Link>
         </div>
       </div>
     </div>

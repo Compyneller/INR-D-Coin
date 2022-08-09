@@ -21,8 +21,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/team" component={OurTeam} />
-          <Route path="/pp" component={Privacy} />
-          <Route path="/tc" component={Tc} />
+          <Route path="pp" component={Privacy} />
+          <Route path="tc" component={Tc} />
         </Switch>
       </Router>
     </div>
